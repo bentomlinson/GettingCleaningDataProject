@@ -14,8 +14,7 @@ There are five main stages of processing the data:
 4. Appropriately label the data set with descriptive variable names. 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-These five stages are marked within the R script for clarity ("run_analysis.R")
-
+These five stages are marked within the R script for clarity ("run_analysis.R").
 The final tidy dataset produced by the R script is called "tidy_dataset.txt" - 180 observations of 88 variables.
 
 
@@ -30,9 +29,9 @@ Step 5 averages the values for each subject (1-30) for each activity (1-6) creat
 
 - Processed data description
 
-The "subject" column refers to the individual person (1-30)
-The "activty" column refers to the activity they were undertaking when the measurement was taken (6 options)
-The other 86 columns refer to the type of measurement taken. A full description of these measurements can be found in "features_info.txt" included in the original data. These variables are all without unit (as the data has been scaled by dividing by the range)
+The "subject" column refers to the individual person (1-30).
+The "activty" column refers to the activity they were undertaking when the measurement was taken (6 options).
+The other 86 columns refer to the type of measurement taken. A full description of these measurements can be found in "features_info.txt" included in the original data. These variables are all without unit (as the data has been scaled by dividing by the range).
 
 
 
