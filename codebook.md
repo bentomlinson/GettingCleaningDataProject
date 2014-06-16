@@ -3,6 +3,7 @@ GettingCleaningDataProject
 
 Files for Coursera "Getting and Cleaning Data" Course Project
 
+
 - Processing the data
 
 There are five main stages of processing the data:
@@ -30,7 +31,13 @@ Step 5 averages the values for each subject (1-30) for each activity (1-6) creat
 
 
 - Original data
-        
-        
+
+This should be placed and unzipped in the working directory. The R Script will then read and import the relevant files.
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+A description of this data can be found here:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+
         
         
