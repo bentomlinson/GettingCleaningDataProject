@@ -24,9 +24,15 @@ The final tidy dataset produced by the R script is called "tidy_dataset.txt" - 1
 
 Step 2 is ambiguous regarding the extraction of mean and standard deviation. Therefore I choose to extract any variables that contained the character strings "mean", "std" or "Mean". This probably includes more data than is required but it is easier to ignore or delete unwanted information rather than return to the original data files and extract any required missing data.
 
-Step 4 requires to "appropriately label the data" but it is unclear what this means. I interpreted it as excluding any punctuation in order that the columns can be refered to (and sorted/analysed) by name. All column names are unique.
+Step 4 requires to "appropriately label the data" but it is unclear what this means. I interpreted it as excluding any punctuation in order that the columns can be refered to (and sorted/analysed) by name. 
 
 Step 5 averages the values for each subject (1-30) for each activity (1-6) creating 180 observations. 
+
+- Processed data description
+
+The "subject" column refers to the individual person (1-30)
+The "activty" column refers to the activity they were undertaking when the measurement was taken (6 options)
+The other 86 columns refer to the type of measurement taken. A full description of these measurements can be found in "features_info.txt" included in the original data. These variables are all without unit (as the data has been scaled by dividing by the range)
 
 
 
@@ -35,7 +41,7 @@ Step 5 averages the values for each subject (1-30) for each activity (1-6) creat
 This should be placed and unzipped in the working directory. The R Script will then read and import the relevant files.
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-A description of this data can be found here:
+A description of the original data can be found here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
